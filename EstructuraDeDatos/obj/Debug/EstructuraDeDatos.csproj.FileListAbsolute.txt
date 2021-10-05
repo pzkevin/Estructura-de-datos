@@ -1,0 +1,12 @@
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\bin\Debug\EstructuraDeDatos.exe.config
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\bin\Debug\EstructuraDeDatos.exe
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\bin\Debug\EstructuraDeDatos.pdb
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.Form1.resources
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.Properties.Resources.resources
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.csproj.GenerateResource.cache
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.exe
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.pdb
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.Practica1_TiposDeDatosAbstractos.resources
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.csproj.AssemblyReference.cache
+C:\Users\K\source\repos\EstructuraDeDatos\EstructuraDeDatos\obj\Debug\EstructuraDeDatos.TiposDeDatos.resources
