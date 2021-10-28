@@ -14,6 +14,8 @@ namespace EstructuraDeDatos
     {
         private int c = 0;
         private int r = 0;
+        private ADT1 abstractype1;
+        private ADT2 abstractype2;
         public TiposDeDatos()
         {
             InitializeComponent();
@@ -93,19 +95,50 @@ namespace EstructuraDeDatos
             dataGridView1.Rows.Add(3);
         }
 
+        private void ADT_Load(object sender, EventArgs e)
+        {
+            label3.Text = "El tipo de dato seleccionado es " + Practica1_TiposDeDatosAbstractos.tipo;
+            dataGridView1.Rows.Add(3);
+            if (Practica1_TiposDeDatosAbstractos.tipo == "ADT1")
+            {
+                textBox1.Enabled = true;
+                textBox1.Visible = true;
+            }
+            if (Practica1_TiposDeDatosAbstractos.tipo == "ADT2")
+            {
+                textBox1.Enabled = true;
+                textBox1.Visible = true;
+            }
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             if (validador())
             {
-                MessageBox.Show(Practica1_TiposDeDatosAbstractos.tipo);
-                dataGridView1[c, r].Value = textBox1.Text;
+                //MessageBox.Show(Practica_1___Tipos.tipo);
+                if (Practica1_TiposDeDatosAbstractos.tipo == "ADT1")
+                {
+                    abstractype1 = new ADT1(textBox1.Text, textBox2.Text);
+                    dataGridView1[c, r].Value = abstractype1.propiedad_1 + Environment.NewLine + abstractype1.propiedad_2;
+                }
+                else if (Practica1_TiposDeDatosAbstractos.tipo == "ADT2")
+                {
+                    abstractype2 = new ADT2(textBox1.Text, textBox2.Text);
+                    dataGridView1[c, r].Value = abstractype2.valor1 + Environment.NewLine + abstractype2.valor2;
+                }
+
+                else
+                {
+                    dataGridView1[c, r].Value = textBox1.Text;
+                }
+
                 c++;
                 if (c == 3)
                 {
                     r++;
                     if (r > 2)
                     {
-                        button2.Enabled = false;
+                        button1.Enabled = false;
                     }
                     c = 0;
                 }
@@ -117,8 +150,11 @@ namespace EstructuraDeDatos
                 {
                     label1.Text = $"Elemento [{c},{r}] =";
                 }
+                textBox1.Clear();
+                textBox1.Focus();
+                textBox2.Clear();
             }
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)

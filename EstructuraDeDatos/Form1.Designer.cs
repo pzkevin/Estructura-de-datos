@@ -33,6 +33,9 @@ namespace EstructuraDeDatos
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.conceptosBasicosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.practica1TiposDeDatosAbstractosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aDT2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.recursividadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.secuenciaDeFibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arreglosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filasYColasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +43,7 @@ namespace EstructuraDeDatos
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.aDT2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.memoramaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +64,8 @@ namespace EstructuraDeDatos
             // conceptosBasicosToolStripMenuItem
             // 
             this.conceptosBasicosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.practica1TiposDeDatosAbstractosToolStripMenuItem});
+            this.practica1TiposDeDatosAbstractosToolStripMenuItem,
+            this.recursividadToolStripMenuItem});
             this.conceptosBasicosToolStripMenuItem.Name = "conceptosBasicosToolStripMenuItem";
             this.conceptosBasicosToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
             this.conceptosBasicosToolStripMenuItem.Text = "1. Conceptos Basicos";
@@ -75,8 +79,33 @@ namespace EstructuraDeDatos
             this.practica1TiposDeDatosAbstractosToolStripMenuItem.Text = "Practica 1.- Tipos de datos abstractos";
             this.practica1TiposDeDatosAbstractosToolStripMenuItem.Click += new System.EventHandler(this.practica1TiposDeDatosAbstractosToolStripMenuItem_Click);
             // 
+            // aDT2ToolStripMenuItem
+            // 
+            this.aDT2ToolStripMenuItem.Name = "aDT2ToolStripMenuItem";
+            this.aDT2ToolStripMenuItem.ShowShortcutKeys = false;
+            this.aDT2ToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
+            this.aDT2ToolStripMenuItem.Text = "ADT 2";
+            this.aDT2ToolStripMenuItem.Click += new System.EventHandler(this.aDT2ToolStripMenuItem_Click);
+            // 
+            // recursividadToolStripMenuItem
+            // 
+            this.recursividadToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.secuenciaDeFibonacciToolStripMenuItem});
+            this.recursividadToolStripMenuItem.Name = "recursividadToolStripMenuItem";
+            this.recursividadToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
+            this.recursividadToolStripMenuItem.Text = "Recursividad";
+            // 
+            // secuenciaDeFibonacciToolStripMenuItem
+            // 
+            this.secuenciaDeFibonacciToolStripMenuItem.Name = "secuenciaDeFibonacciToolStripMenuItem";
+            this.secuenciaDeFibonacciToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.secuenciaDeFibonacciToolStripMenuItem.Text = "Secuencia de Fibonacci";
+            this.secuenciaDeFibonacciToolStripMenuItem.Click += new System.EventHandler(this.secuenciaDeFibonacciToolStripMenuItem_Click);
+            // 
             // arreglosToolStripMenuItem
             // 
+            this.arreglosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.memoramaToolStripMenuItem});
             this.arreglosToolStripMenuItem.Name = "arreglosToolStripMenuItem";
             this.arreglosToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.arreglosToolStripMenuItem.Text = "2. Arreglos";
@@ -131,13 +160,12 @@ namespace EstructuraDeDatos
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
             // 
-            // aDT2ToolStripMenuItem
+            // memoramaToolStripMenuItem
             // 
-            this.aDT2ToolStripMenuItem.Name = "aDT2ToolStripMenuItem";
-            this.aDT2ToolStripMenuItem.ShowShortcutKeys = false;
-            this.aDT2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aDT2ToolStripMenuItem.Text = "ADT 2";
-            this.aDT2ToolStripMenuItem.Click += new System.EventHandler(this.aDT2ToolStripMenuItem_Click);
+            this.memoramaToolStripMenuItem.Name = "memoramaToolStripMenuItem";
+            this.memoramaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.memoramaToolStripMenuItem.Text = "Memorama";
+            this.memoramaToolStripMenuItem.Click += new System.EventHandler(this.memoramaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -175,6 +203,9 @@ namespace EstructuraDeDatos
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ToolStripMenuItem aDT2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem recursividadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem secuenciaDeFibonacciToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem memoramaToolStripMenuItem;
     }
 }
 

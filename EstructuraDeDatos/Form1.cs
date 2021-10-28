@@ -45,5 +45,17 @@ namespace EstructuraDeDatos
             Practica1_TiposDeDatosAbstractos frm = new Practica1_TiposDeDatosAbstractos();
             frm.ShowDialog();
         }
+
+        private void secuenciaDeFibonacciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Fibonacci frm = new Fibonacci();
+            frm.ShowDialog();
+        }
+
+        private void memoramaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Memorama frm = new Memorama();
+            frm.ShowDialog();
+        }
     }
 }
