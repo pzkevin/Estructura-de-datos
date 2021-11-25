@@ -40,6 +40,7 @@ namespace EstructuraDeDatos
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,7 +85,7 @@ namespace EstructuraDeDatos
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(16, 127);
+            this.label2.Location = new System.Drawing.Point(16, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(221, 20);
             this.label2.TabIndex = 4;
@@ -99,7 +100,7 @@ namespace EstructuraDeDatos
             this.Column1,
             this.Column2,
             this.Column3});
-            this.dataGridView1.Location = new System.Drawing.Point(19, 178);
+            this.dataGridView1.Location = new System.Drawing.Point(19, 204);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(344, 150);
@@ -109,16 +110,19 @@ namespace EstructuraDeDatos
             // 
             this.Column1.HeaderText = "Column0";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Column1";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Column2";
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             // 
             // label3
             // 
@@ -140,11 +144,19 @@ namespace EstructuraDeDatos
             this.label4.TabIndex = 7;
             this.label4.Text = "[C,R]";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(162, 116);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 8;
+            // 
             // TiposDeDatos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView1);
@@ -175,5 +187,6 @@ namespace EstructuraDeDatos
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
