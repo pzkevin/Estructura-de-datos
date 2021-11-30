@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="ADT1.cs" />
     <Compile Include="ADT2.cs" />
+    <Compile Include="ColaGenerica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColaGenerica.Designer.cs">
+      <DependentUpon>ColaGenerica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fibonacci.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ColaGenerica.resx">
+      <DependentUpon>ColaGenerica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fibonacci.resx">
       <DependentUpon>Fibonacci.cs</DependentUpon>
     </EmbeddedResource>

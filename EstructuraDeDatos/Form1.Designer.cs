@@ -41,11 +41,12 @@ namespace EstructuraDeDatos
             this.listasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filasYColasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pilasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arbolesBinariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.notacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,7 +129,8 @@ namespace EstructuraDeDatos
             // filasYColasToolStripMenuItem
             // 
             this.filasYColasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pilasToolStripMenuItem});
+            this.pilasToolStripMenuItem,
+            this.colasToolStripMenuItem});
             this.filasYColasToolStripMenuItem.Name = "filasYColasToolStripMenuItem";
             this.filasYColasToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
             this.filasYColasToolStripMenuItem.Text = "4. Pilas y Colas";
@@ -142,6 +144,13 @@ namespace EstructuraDeDatos
             this.pilasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pilasToolStripMenuItem.Text = "Pilas";
             this.pilasToolStripMenuItem.Click += new System.EventHandler(this.pilasToolStripMenuItem_Click);
+            // 
+            // notacionToolStripMenuItem
+            // 
+            this.notacionToolStripMenuItem.Name = "notacionToolStripMenuItem";
+            this.notacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.notacionToolStripMenuItem.Text = "Notacion";
+            this.notacionToolStripMenuItem.Click += new System.EventHandler(this.notacionToolStripMenuItem_Click);
             // 
             // arbolesBinariosToolStripMenuItem
             // 
@@ -180,12 +189,12 @@ namespace EstructuraDeDatos
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
             // 
-            // notacionToolStripMenuItem
+            // colasToolStripMenuItem
             // 
-            this.notacionToolStripMenuItem.Name = "notacionToolStripMenuItem";
-            this.notacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.notacionToolStripMenuItem.Text = "Notacion";
-            this.notacionToolStripMenuItem.Click += new System.EventHandler(this.notacionToolStripMenuItem_Click);
+            this.colasToolStripMenuItem.Name = "colasToolStripMenuItem";
+            this.colasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colasToolStripMenuItem.Text = "Colas";
+            this.colasToolStripMenuItem.Click += new System.EventHandler(this.colasToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -228,6 +237,7 @@ namespace EstructuraDeDatos
         private System.Windows.Forms.ToolStripMenuItem memoramaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pilasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem notacionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem colasToolStripMenuItem;
     }
 }
 

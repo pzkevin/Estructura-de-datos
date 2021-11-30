@@ -69,5 +69,11 @@ namespace EstructuraDeDatos
             Notacion frm = new Notacion();
             frm.ShowDialog();
         }
+
+        private void colasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColaGenerica frm = new ColaGenerica();
+            frm.ShowDialog();
+        }
     }
 }
